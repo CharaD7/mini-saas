@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex flex-col mt-[-100px] md:mt-[-50px]">
           <ContainerScroll
             titleComponent={
-              <div className="flex items-center justify-center flex-col">
+              <div className="flex items-center flex-col">
                 <Button
                   size={'lg'}
                   className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full
