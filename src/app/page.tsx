@@ -28,6 +28,10 @@ export default function Home() {
                     Start For Free Today
                   </span>
                 </Button>
+                <h1 className="text-5xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-b
+                  from-white to-neutral-600 font-sans font-bold">
+                  Automate Your Work With Shazam
+                </h1>
               </div>
             }
           ></ContainerScroll>
