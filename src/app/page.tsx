@@ -2,7 +2,7 @@ import { ContainerScroll } from "@/components/global/container-scroll-animation"
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import Navbar from "@/components/global/navbar";
 import { Button } from "@/components/ui/button";
-import { clients } from "@/lib/constant";
+import { clients, products } from "@/lib/constant";
 import Image from "next/image";
 
 export default function Home() {
@@ -45,6 +45,9 @@ export default function Home() {
         direction="right"
         speed="slow"
       />
+      <section>
+        <HeroParallax products={products}></HeroParallax>
+      </section>
     </main>
   );
 }
